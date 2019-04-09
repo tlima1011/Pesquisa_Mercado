@@ -55,11 +55,11 @@
 			</tr>
 			<tr>
 				<td><i>Data de Nascimento:</i></td>
-				<td><input type="date" name="dataNascimento" /></td>
+				<td><input type="date" name="dataNascimento" id="data"  /></td>
 			</tr>
 			<tr>
 				<td><i>Idade:</i></td>
-				<td><input type="text" name="idade" /></td>
+				<td><input type="text" name="idade" id="idade" disabled size="1"/></td>
 			</tr>
 			<tr>
 				<td><i>Endereço:</i></td>
@@ -112,5 +112,6 @@
 		<hr />
 		<input type="submit" value="Gravar" /><input type="reset" value="Limpar Dados"/>
 	</form>
+	<script  src="js/calculaIdade.js"></script>
 </body>
 </html>
